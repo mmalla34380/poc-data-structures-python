@@ -18,11 +18,10 @@ Each data structure is implemented as a standalone Python class with clearly def
 ├── hash_table.py           # Custom HashTable implementation with separate chaining
 ├── demo.py                 # Demo script showcasing all three structures
 ├── README.md               # Project documentation
-└── tests/
-    ├── __init__.py         # (Optional) Marks the test directory as a package
-    ├── test_trie.py        # Unit tests for Trie
-    ├── test_min_heap.py    # Unit tests for Min Heap
-    └── test_hash_table.py  # Unit tests for Hash Table
+├── __init__.py         # (Optional) Marks the test directory as a package
+├── test_trie.py        # Unit tests for Trie
+├── test_min_heap.py    # Unit tests for Min Heap
+└── test_hash_table.py  # Unit tests for Hash Table
 Running the Demonstration
 To see the data structures in action, run the demo script:
 bashpython demo.py
