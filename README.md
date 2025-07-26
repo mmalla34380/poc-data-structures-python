@@ -11,17 +11,8 @@ Hash Table
 Implements constant-time key-value access with collision handling using separate chaining. Useful for quick lookups and data indexing.
 
 Each data structure is implemented as a standalone Python class with clearly defined methods for insertion, deletion, search, and retrieval. The code follows object-oriented design principles and is modular for future extension.
-# Project Structure
 .
-├── trie.py                 # Implementation of Trie data structure
-├── min_heap.py             # Implementation of MinHeap using heapq
-├── hash_table.py           # Custom HashTable implementation with separate chaining
-├── demo.py                 # Demo script showcasing all three structures
-├── README.md               # Project documentation
-├── __init__.py         # (Optional) Marks the test directory as a package
-├── test_trie.py        # Unit tests for Trie
-├── test_min_heap.py    # Unit tests for Min Heap
-└── test_hash_table.py  # Unit tests for Hash Table
+
 Running the Demonstration
 To see the data structures in action, run the demo script:
 bashpython demo.py
